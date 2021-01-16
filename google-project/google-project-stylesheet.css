@@ -8,6 +8,15 @@ div {
 }
 button {
     background-color:#F1F3F4;
+    border-radius: 25px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    color: #5F6368;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
 }
 .horizontal-center {
     margin: 0;
@@ -18,4 +27,19 @@ button {
     margin: 0 auto;
     width: 500px;
     text-align: center;
+}
+input {
+    border-radius: 25px;
+    font-size: 16px;
+    height: 100%;
+    padding-inline-end: 40px;
+    padding-inline-start: 52px;
+    /* width: 100%; */
+    margin-top: -37%;
+    height: 36px;
+}
+.input-holder {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 5px;
 }
